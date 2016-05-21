@@ -17,4 +17,14 @@
         android:id="@+id/buttonAddActivity"
         android:layout_centerHorizontal="true"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:id="@+id/buttonViewActivity"
+        android:layout_below="@+id/buttonAddActivity"
+        android:layout_alignLeft="@+id/buttonAddActivity"
+        android:layout_alignStart="@+id/buttonAddActivity" />
+
 </RelativeLayout>

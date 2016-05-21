@@ -35,8 +35,16 @@
         android:id="@+id/btnAddActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editTextWho"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@id/editTextWho"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:text="Home"
+        android:id="@+id/btnHomeADDXML"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextWho"
+        />
 
 
 </RelativeLayout>

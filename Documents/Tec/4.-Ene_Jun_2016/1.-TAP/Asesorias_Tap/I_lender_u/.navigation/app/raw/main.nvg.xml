@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.cristobal.i_lender_u.AddActivity"/>
+      <point      
+        x = "620"      
+        y = "292"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.cristobal.i_lender_u.MainActivity"/>
+      <point      
+        x = "364"      
+        y = "228"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.cristobal.i_lender_u.DataListActivity"/>
+      <point      
+        x = "600"      
+        y = "200"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

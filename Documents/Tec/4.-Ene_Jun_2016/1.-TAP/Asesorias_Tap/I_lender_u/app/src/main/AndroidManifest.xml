@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ilend_logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -16,8 +16,20 @@
             </intent-filter>
         </activity>
         <activity android:name=".AddActivity">
-            <intent-filter>>
+            <intent-filter>
+
                 <action android:name="android.intent.action.ADDACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DataListActivity"
+            android:label="@string/title_activity_data_list"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+
+                <action android:name="android.intent.action.DATALISTACTIVITY" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">I_lender_u</string>
+    <string name="app_name">ilend</string>
+    <string name="title_activity_data_list">DataListActivity</string>
 </resources>
