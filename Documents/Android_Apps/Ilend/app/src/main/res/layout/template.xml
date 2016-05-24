@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/textView_Name"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:id="@+id/textView_idname"
+        android:layout_gravity="center_horizontal"
+        android:layout_above="@+id/textView_Pos"
+        android:layout_toRightOf="@+id/textView_Name"
+        android:layout_toEndOf="@+id/textView_Name"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pos"
+        android:id="@+id/textView_Pos"
+        android:layout_below="@+id/textView_Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pos"
+        android:id="@+id/textView_idpos"
+        android:layout_alignTop="@+id/textView_Pos"
+        android:layout_alignLeft="@+id/textView_idname"
+        android:layout_alignStart="@+id/textView_idname" />
+
+</RelativeLayout>
